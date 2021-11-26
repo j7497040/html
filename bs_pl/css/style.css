@@ -1,0 +1,100 @@
+body {
+  margin: 10px;
+}
+
+.bs-h2,
+.bs-h3 {
+  text-align: center;
+}
+
+.bs-h2 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #333;
+  font-size: 1.5em;
+}
+
+.bs-h3 {
+  //width: 80%;
+  //max-width: 1000px;
+  font-size: 1.1em;
+}
+
+.bs-dt {
+  font-size: 1.1m;
+}
+
+.bs-contents {
+  margin: 0 auto 10px;
+  width: 80%;
+  max-width: 800px;
+  text-align: right;
+}
+
+.bs,
+.bs th,
+.bs td {
+  border-color: #666;
+  border-collapse: collapse;
+}
+.bs {
+  width: 100%;
+}
+.bs th,
+.bs td,
+.pl th,
+.pl td {
+  padding: 5px 10px;
+}
+.bs caption {
+  padding: 5px 10px;
+  border-color: #666;
+  background-color: #e5f0fa;
+}
+
+.bs th, 
+.pl th {
+  width: 60%;
+  text-align: left;
+  font-weight: normal;
+}
+
+.bs td,
+.pl td {
+  text-align: right;
+}
+
+.grid {
+  display: table;
+  margin: 0 auto 30px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+div.grid div.grid-item-left{
+  display: table-cell;
+  width: 45%;
+  border: 1px solid #d3d3d3;
+  border-right-style: none;
+}
+
+div.grid div.grid-item-right{
+  display: table-cell;
+  width: 45%;
+  border: 1px solid #d3d3d3;
+}
+
+@media screen and (max-width: 640px) {
+  div.grid {
+    display: block;
+  }
+  div.grid div.grid-item-left {
+    display: block;
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-bottom-style: none;
+   }
+  div.grid div.grid-item-right {
+    display: block;
+    width: 100%;
+  }
+}
